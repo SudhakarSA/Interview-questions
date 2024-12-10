@@ -159,3 +159,58 @@ queue = [1, 2, 3, 4, 5, 1, 4, 5, 1, 4, 5, 4, 5, 4]
 Input: [1,2, 3, 4, 1, 5, 5, 6]
 Output: [2, 3, 4, 6]
 ```
+
+# Altimetrik interview questions
+1. How would you optimize nodejs performance
+2. What are the types of communication protocol in microservices
+3. How to fix memory leak issue in nodejs
+4. What are the phase event loops
+5. what is callback
+6. Indexing in SQL
+7. What is composite index in SQL
+8. Table create query and alter query
+9. Output of following
+```js
+const [a = 1] = [];
+const { b = 2 } = { b: undefined };
+const { c = 2 } = { c: null };    
+console.log(a, b, c)
+
+let a, b, rest;
+ [a, b, ...rest] = [10, 20, 30, 40, 50];
+ console.log(rest);
+```
+```js
+// Implement a function that takes multidimensional arrays as input  and return single dimensional array. Result must contains alternative elements from each array item.
+
+let input = [ [1,2,3], [22,33,44,99], [66,77], [6,7,8,9] ]
+
+// output : [1,22,66,6,2,33,77,7,3,44, 8,99,9]
+ 
+ 
+ function convertArray(arr) {
+   let output = [];
+   
+   
+   for (let i = 0; i < arr.length; i++) {
+     
+     let j = 0;
+     
+     while (j < arr.length) {
+       if (arr[j].length > i) {
+         output.push(arr[j][i]);
+       
+       }
+        
+      j++;
+     }
+   }
+   
+   return output
+ }
+ 
+ console.log(convertArray(input))
+```
+10. What are the services you use in AWS
+11. Purpose of AWS S3
+12. What is EC2
