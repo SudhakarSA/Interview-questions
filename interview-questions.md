@@ -215,3 +215,6 @@ let input = [ [1,2,3], [22,33,44,99], [66,77], [6,7,8,9] ]
 11. What are the services you use in AWS
 12. Purpose of AWS S3
 13. What is EC2
+14. How would integrate 3rd party service with your nodejs service
+15. What is oauth and how would you implement it
+16. OAuth Grant Types
