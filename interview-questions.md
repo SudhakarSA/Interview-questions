@@ -169,7 +169,8 @@ Output: [2, 3, 4, 6]
 6. Indexing in SQL
 7. What is composite index in SQL
 8. Table create query and alter query
-9. Output of following
+9. Premitive and non premitive type in nodejs
+10. Output of following
 ```js
 const [a = 1] = [];
 const { b = 2 } = { b: undefined };
@@ -211,6 +212,6 @@ let input = [ [1,2,3], [22,33,44,99], [66,77], [6,7,8,9] ]
  
  console.log(convertArray(input))
 ```
-10. What are the services you use in AWS
-11. Purpose of AWS S3
-12. What is EC2
+11. What are the services you use in AWS
+12. Purpose of AWS S3
+13. What is EC2
